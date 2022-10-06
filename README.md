@@ -1,6 +1,6 @@
 # DiscordStarterBot
-A starter bot using discord.js 14.5.0 that can be run on replit.com with uptime robot.
-Based off of the tutorial on freecodecamp:
+A starter bot using discord.js 14.5.0 that can be run on replit.com with uptime robot (i.e. on the cloud).
+This is based off of the tutorial on freecodecamp:
 https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/
 
 There are some updates here to clarify what's different from the article linked above.
@@ -45,3 +45,4 @@ Look for "Server Members Intent" and "Message Content Intent" toggles and turn t
 ## Going to replit
 This code was meant to be hosted on the cloud on replit, based off the freecodecamp article.
 
+Uptime Robot can be used to prevent the express server from stopping after an hour.
