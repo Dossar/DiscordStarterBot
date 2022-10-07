@@ -93,7 +93,7 @@ function initHandlersForClient() {
       guilds.cache.each(guild => {
         const pingChannel = guild.channels.cache.find(channel => channel.name === 'ping');
         if (pingChannel) {
-          ping.send(pingMsg);
+          pingChannel.send(pingMsg);
         }
       });
     } catch (e) {
